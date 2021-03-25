@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<style>
+body {
+  min-width: 290px;
+  background: gray;
+}
+
+
+#navbar{
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  min-width: 150px;
+  width: 250px;
+}
+#navbar header{
+  color: silver;
+  font-size: 22pt;
+  margin: 0;
+  padding: 0;
+  background: black;
+  
+}
+#navbar ul{
+  background: black;
+  height: 1vh;
+  margin: 0;
+  padding: 0;
+}
+#navbar li{
+  width: 100%;
+  list-style: none;
+}
+.nav-link{
+  font-size: 18pt;
+  background: black;
+  color: silver;
+  display: block;
+  text-decoration: none;
+  border-bottom: solid;
+  
+}
+#main-doc{
+  position: absolute;
+  margin-left: 250px;
+}
+.main-section{
+  font-size: 16pt;
+  background: lightgray;
+} 
+
+@media (max-width: 300px){
+    .nav-link{
+      font-size: 14pt;
+      color: lightgreen;
+    }
+    .main-section{
+      font-size: 12pt;
+    }
+  }
+</style>
+  <!--This is my navbar-->
+  <nav id="navbar">
+    <header>Becoming A Mazer</header>
+    <ul>
+      <li><a href="#brewing_mead" class="nav-link">Brewing Mead</a></li>
+      <li><a href="#topic_2" class="nav-link">Topic 2</a></li>
+      <li><a href="#topic_3" class="nav-link">Topic 3</a></li>
+      <li><a href="#topic_4" class="nav-link">Topic 4</a></li>
+      <li><a href="#topic_5" class="nav-link">Topic 5</a></li>
+    </ul>
+  </nav>
+<main id="main-doc">  
+<!--This is section 1-->
+  <section class="main-section" id="brewing_mead">
+    <header>Brewing Mead</header>
+    <p>Sample text that needs to be more elaborate.</p>
+    <p>Some more sample text to show that there are two paragraphs in section 1. Below is a list of things. I needed one to pass the test.</p>
+    <code></code>
+    <ul>
+      <li>sticks</li>
+      <li>stones</li>
+      <li>bones</li>
+    </ul>
+  </section>
+  <!--This is section 2-->
+  <section class="main-section" id="topic_2">
+    <header>Topic 2</header>
+    <p>Sample text for Topic 2.</p>
+    <p>Sample</p>
+    <code></code>
+  </section>
+  <!--This is section 3-->
+  <section class="main-section" id="topic_3">
+    <header>Topic 3</header>
+    <p>Sample</p>
+    <p>Sample</p>
+    <code></code>
+    <ol>
+      <li>plan</li>
+      <li>act</li>
+    </ol>
+  </section>
+  <!--This is section 4-->
+  <section class="main-section" id="topic_4">
+    <header>Topic 4</header>
+    <p>Sample</p>
+    <p>Sample</p>
+    <code></code>
+  </section>
+  <!--This is section 5-->
+  <section class="main-section" id="topic_5">
+    <header>Topic 5</header>
+    <p>Sample</p>
+    <p>Sample</p>
+    <code></code>
+  </section>
+</main>
